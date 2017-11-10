@@ -1,0 +1,98 @@
+{
+	"id": "bc1df869-f562-c026-6861-1c4eb8e993f7",
+	"name": "Test",
+	"description": "",
+	"order": [
+		"1033966f-b272-7c0b-f8eb-990a23b6eeca",
+		"0a059871-e2f0-4013-0d89-ddb791d63800"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510320530635,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0a059871-e2f0-4013-0d89-ddb791d63800",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://10.98.2.165:8081/my-spring-resteasy/hello/upload",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510320847113,
+			"name": "JSON Request",
+			"description": "",
+			"collectionId": "bc1df869-f562-c026-6861-1c4eb8e993f7",
+			"responses": [],
+			"rawModeData": "{\n\t\"BusinessArea\":\"KYC\",\n\t\"SummaryCategory\":\"KYC\",\n\t\"DocumentTitle\":\"KYC\",\n\t\"content\":\"TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlzIHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2YgdGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGlu dWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRoZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=\"\n}"
+		},
+		{
+			"id": "1033966f-b272-7c0b-f8eb-990a23b6eeca",
+			"headers": "",
+			"headerData": [],
+			"url": "http://10.98.2.165:8081/my-spring-resteasy/hello/upload",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bc1df869-f562-c026-6861-1c4eb8e993f7",
+			"data": [
+				{
+					"key": "content",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "BusinessArea",
+					"value": "KYC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "SummaryCategory",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "DocumentTitle",
+					"value": "Test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Multipart Request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510320695009,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
